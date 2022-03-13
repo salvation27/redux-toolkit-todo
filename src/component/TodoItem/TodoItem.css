@@ -1,0 +1,17 @@
+.todo_item{
+    display: flex;
+    align-items: center;
+}
+.del_task {
+    margin-left: 30px;
+    cursor: pointer;
+}
+
+.del_task:hover {
+   color: brown;
+   font-weight: bold;
+}
+input:checked + div {
+    color: brown;
+    text-decoration: line-through;
+}
